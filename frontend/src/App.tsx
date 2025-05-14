@@ -17,10 +17,10 @@ function App() {
         <Route path="/login" element={<Navigate to="/" replace />} />
         <Route path="/register" element={<SelectRole />} />
         <Route path="/register/details" element={<Register />} />
-        <Route path="/dashboard/admin" element={<AdminDashboard />} />
-        <Route path="/dashboard/vendor" element={<VendorDashboard />} />
-        <Route path="/dashboard/warehouse" element={<WarehouseDashboard />} />
-        <Route path="/dashboard/transporter" element={<TransporterDashboard />} />
+        <Route path="/dashboards/admin" element={<AdminDashboard />} />
+        <Route path="/dashboards/vendor" element={<VendorDashboard />} />
+        <Route path="/dashboards/warehouse" element={<WarehouseDashboard />} />
+        <Route path="/dashboards/transporter" element={<TransporterDashboard />} />
         <Route path="/dashboards/warehouse/inventory" element={<InventoryPage />} />
       </Routes>
     </Router>

@@ -25,9 +25,9 @@ import { api } from '../../utils/api';
 
 const roleMapping: Record<string, string> = {
   Admin: '/dashboard/admin',
-  Vendor: '/dashboard/vendor',
-  WarehouseManager: '/dashboard/warehouse',
-  Transporter: '/dashboard/transporter',
+  Vendor: '/dashboards/vendor',
+  WarehouseManager: '/dashboards/warehouse',
+  Transporter: '/dashboards/transporter',
 };
 
 const Login: React.FC = () => {
